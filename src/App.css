@@ -1,5 +1,6 @@
 /*
-Hoja de estilos que se va a exportar a App.js 
+Hoja de estilos que está siendo importada por App.js 
+Esta puede sobrescribir cambios dentro del archivo index.css, ya que si nos fijamos en index.js, App.css es importada LUEGO de App (App.js)
 */
 *{
     background-color: rgb(102, 255, 0);
