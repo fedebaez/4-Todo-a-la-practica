@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 //Se importa los estilos de index.css
-//Esta importación es innecesaria debido a que los estilos del componente App (de App.js) van a sobrescribir los cambios que hagamos
+//Tener en cuenta que esta importación puede ser innecesaria si los estilos del componente App (de App.js) solo sobrescriben al contenido de esta
 import './index.css';
 //Se importa App.js (sin el .js)
 import App from './App';
@@ -18,5 +18,7 @@ root.render(
     <App />
   </React.StrictMode>
 );
+
+
 
 
